@@ -1,12 +1,92 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Responsive Layout</title>
+<style>
+
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+}
+h1 {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+p {
+  border: 1px solid black;
+  width: 40%;
+  height: 30px;
+  margin-right: right;
+  margin-left:auto;
+  margin-top: 0px;
+  font-family: Helvetica;
+  font-weight: 700;
+  text-align: center;  
+}
+
+
+#p1 {
+  background-color: #ef9db9;
+  color: black; 
+  font-style:oblique,initial;
+
+}
+#p2 {
+  background-color: #c5544b;
+  color: white;
+  font-style:inherit;
+}
+#p3 {
+  background-color: #f7da7e;
+  color: black;
+}
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+
+@media {
+  .col-lg-3, .col-md-6 {
+  	border: 1px solid black;
+    background-color: #a2a2a2;
+    margin-top:16px; 
+    border-right: 10px solid white;
+    
+     }
+}
+
+@media (min-width: 1200px) {
+  .col-lg-3 {
+    float: left;
+    background-color: #a2a2a2;
+    width: 25%; 
+  } 
+}
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+   .col-md-6 {
+    float: left;
+    background-color: #a2a2a2;
+    width: 50%;
+  }
+}
+
+</style>
 </head>
 <body>
-	<h1>hhhhhhh</h1>
-	
+<h1>Our Menu</h1>
+
+<div class="row">
+  <div class="col-lg-3 col-md-6"><p id="p1">Cheken</p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed voluptates incidunt sit fuga exercitationem laudantium nam temporibus vitae vel earum fugit perspiciatis eum debitis aspernatur odit porro neque, labore repellat?</div>
+  <div class="col-lg-3 col-md-6"><p id="p2">Beef</p>Lorem ipsum dolor, sit amet, consectetur adipisicing elit. Tempora, omnis, voluptas delectus sit voluptates fugit, ex saepe nostrum ullam hic, deleniti! Autem accusamus vero aliquid dolores accusantium illum hic atque.</div> 
+  <div class="col-lg-3 col-md-6"><p id="p3">Suchi</p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, dolor ratione culpa ducimus ab rem ipsa, debitis alias vel magnam ipsum, hic quasi fugiat asperiores reiciendis fugit maiores numquam molestias!</div>
+  
+</div>
+
 </body>
 </html>
