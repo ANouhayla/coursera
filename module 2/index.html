@@ -3,84 +3,24 @@
 <html>
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Responsive Layout</title>
-<style>
-
-/********** Base styles **********/
-* {
-  box-sizing: border-box;
-}
-h1 {
-  margin-bottom: 15px;
-  text-align: center;
-}
-
-p {
-  border: 1px solid black;
-  width: 40%;
-  height: 30px;
-  margin-right: right;
-  margin-left:auto;
-  margin-top: 0px;
-  font-family: Helvetica;
-  font-weight: 700;
-  text-align: center;  
-}
-
-
-#p1 {
-  background-color: #ef9db9;
-  color: black; 
-  font-style:oblique,initial;
-
-}
-#p2 {
-  background-color: #c5544b;
-  color: white;
-  font-style:inherit;
-}
-#p3 {
-  background-color: #f7da7e;
-  color: black;
-}
-
-.row {
-  width: 100%;
-}
-
-@media {
-  .col-lg-3, .col-md-6 {
-  	float: left;
-  	border: 1px solid black;
-    background-color: #a2a2a2;
-    margin-top:16px; 
-    border-right: 10px solid white;
-    
-     }
-}
-@media (min-width: 1200px) {
-  .col-lg-3 {
-  
-    width: 25%; 
-  } 
-}
-/********** Medium devices only **********/
-@media (min-width: 992px) and (max-width: 1199px) {
-   .col-md-6 {
-    width: 50%;
-  }
-}
-
-</style>
+<title>solution module 2</title>
+<link rel="stylesheet" href="C:\Users\pc\coursera\module 2\css\style.css">
 </head>
+
 <body>
 <h1>Our Menu</h1>
 
-<div class="row">
-  <div class="col-lg-3 col-md-6"><p id="p1">Cheken</p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed voluptates incidunt sit fuga exercitationem laudantium nam temporibus vitae vel earum fugit perspiciatis eum debitis aspernatur odit porro neque, labore repellat?</div>
-  <div class="col-lg-3 col-md-6"><p id="p2">Beef</p>Lorem ipsum dolor, sit amet, consectetur adipisicing elit. Tempora, omnis, voluptas delectus sit voluptates fugit, ex saepe nostrum ullam hic, deleniti! Autem accusamus vero aliquid dolores accusantium illum hic atque.</div> 
-  <div class="col-lg-3 col-md-6"><p id="p3">Suchi</p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, dolor ratione culpa ducimus ab rem ipsa, debitis alias vel magnam ipsum, hic quasi fugiat asperiores reiciendis fugit maiores numquam molestias!</div>
+<div id = "bloc1">
+	<p id = "p1" style="background-color: #ef9db9">chicken</p>
+	<p id = "p2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 </div>
+<div id = "bloc2">
+	<p id = "p1" style="background-color: #c5544b">beef</p>
+	<p id = "p2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+<div id = "bloc3">
+	<p id = "p1" style = "background-color: #f7da7e">sushi</p>
+	<p id = "p2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
 </body>
-</html>

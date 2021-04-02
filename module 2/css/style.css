@@ -1,0 +1,152 @@
+<style>
+
+* {
+	box-sizing: border-box;
+}
+
+<body> {
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+  text-align: center;
+  font-family: Helvetica;
+}
+
+@media (min-width: 992px){
+
+#p1 {
+	float: right;
+	height: 30px;
+	border: 1px solid black;
+	width: 80px;
+	text-align: center;
+	border-width:1px;
+	margin: -1px -1px;
+	font-size: 150%;
+}
+#p2 {
+	float: left;
+	overflow: auto;
+	clear: right;
+}
+
+#bloc1 {
+	float: left;
+	border: 1px solid black;
+	width: 30%;
+	padding: 0px;
+	margin: 0px 10px 0px 10px;
+	background-color: gray;
+}
+#bloc2 {
+	float: left;
+	border: 1px solid black;
+	width: 30%;
+	padding: 0px;
+	margin: 0px 10px 0px 10px;
+	background-color: gray;
+}
+#bloc3 {
+	float: left;
+	border: 1px solid black;
+	width: 30%;
+	padding: 0px;
+	margin: 0px 10px 0px 10px;
+	background-color: gray;
+}	
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+
+#p1 {
+	float: right;
+	height: 30px;
+	border: 1px solid black;
+	width: 80px;
+	text-align: center;
+	border-width: 1px;
+	margin: -1px -1px;
+	font-size: 150%;
+	
+}
+#p2 {
+	float: left;
+	overflow: auto;
+	clear: right;
+	
+}
+
+#bloc1 {
+	float: left;
+	border: 1px solid black;
+	width: 46%;
+	padding: 0px;
+	margin: 0px 10px 0px 10px;
+	background-color: gray;
+}
+#bloc2 {
+	float: left;
+	border: 1px solid black;
+	width: 46%;
+	padding: 0px;
+	margin: 0px 10px 0px 10px;
+	background-color: gray;
+}
+#bloc3 {
+	float: left;
+	border: 1px solid black;
+	width: 94.75%;
+	padding: 0px;
+	margin: 10px 0px 0px 10px;
+	background-color: gray;
+}	
+}
+
+@media (min-width: 75px) and (max-width: 767px){
+
+#p1 {
+	float: right;
+	height:30px;
+	border: 1px solid black;
+	width: 80px;
+	text-align: center;
+	border-width: 1px;
+	margin: -1px -1px;
+	font-size: 150%;
+	
+}
+#p2 {
+	float: left;
+	overflow: auto;
+}
+
+#bloc1 {
+	float: left;
+	border: 1px solid black;
+	width: 90%;
+	padding: 0;
+	margin: 10px 0px 0px 0px;
+	background-color: gray;
+}
+#bloc2 {
+	float: left;
+	border: 1px solid black;
+	width: 90%;
+	padding: 0;
+	margin: 10px 0px 0px 0px;
+	background-color: gray;
+}
+#bloc3 {
+	float: left;
+	border: 1px solid black;
+	width: 90%;
+	padding: 0;
+	margin: 10px 0px 0px 0px;
+	background-color: gray;
+}	
+}
+
+</style>
+
